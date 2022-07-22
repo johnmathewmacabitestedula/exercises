@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopExercise09", "..\For
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopExercise10", "..\ForLoopExercise10\ForLoopExercise10.csproj", "{1AC3C095-212C-40BA-BA4D-3042B90A6DF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleOOP", "..\SampleOOP\SampleOOP.csproj", "{D098E7F1-8238-4B90-830A-97FB1CF8CAA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{1AC3C095-212C-40BA-BA4D-3042B90A6DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AC3C095-212C-40BA-BA4D-3042B90A6DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AC3C095-212C-40BA-BA4D-3042B90A6DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D098E7F1-8238-4B90-830A-97FB1CF8CAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D098E7F1-8238-4B90-830A-97FB1CF8CAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D098E7F1-8238-4B90-830A-97FB1CF8CAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D098E7F1-8238-4B90-830A-97FB1CF8CAA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
