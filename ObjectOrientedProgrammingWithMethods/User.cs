@@ -8,16 +8,9 @@ namespace ObjectOrientedProgrammingWithMethods
 {
     class User
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
         public int Age { get; set; }
-
-        public void GetUser()
-        {
-            FirstName = "Francisco";
-            LastName = "Cebu";
-            Age = 31;
-        }
 
     }
 }

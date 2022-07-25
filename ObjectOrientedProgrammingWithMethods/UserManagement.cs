@@ -8,18 +8,26 @@ namespace ObjectOrientedProgrammingWithMethods
 {
     class UserManagement : User
     {
-        public void Add()
+        public void Add(string firstname, string lastname, int age)
+        {
+            Console.WriteLine("New Record Inserted: " + firstname + " " + lastname + " " + age + " years old");
+            Console.ReadLine();
+        }
+        public void Edit(string firstname, string lastname, int age)
+        {
+            Console.WriteLine("Record Updated: " + firstname + " " + lastname + " " + age + " years old");
+            Console.ReadLine();
+        }
+        public User GetUser()
         {
             User user = new User();
-            user.GetUser();
-            Console.WriteLine("New Record Inserted: " + user.FirstName + " " + user.LastName + " " +user.Age + " years old");
-            Console.ReadLine();
+            user.firstName = "Francisco";
+            user.lastName = "Cebu";
+            user.Age = 31;
+
+            return user;
         }
-        public void EditUser(string FirstName = "John Mathew",string LastName = "Estedula", int Age = 22)
-        {
-            Console.WriteLine("Record Updated: " + FirstName + " " + LastName + " " + Age + " years old");
-            Console.ReadLine();
-        }
-        
+
+       
     }
 }
